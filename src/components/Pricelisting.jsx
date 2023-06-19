@@ -46,7 +46,7 @@ function Pricelisting() {
         let months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
         for (let i = 0; i < months.length; i++) {
             if(i+1===month){
-             month=months[i]
+             month=months[i+1]
             }  
          }
 
